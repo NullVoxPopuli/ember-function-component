@@ -3,7 +3,7 @@
 ## Installation
 
 * `git clone <repository-url>`
-* `cd ember-statechart-component`
+* `cd ember-function-component`
 * `npm install`
 
 ## Linting
