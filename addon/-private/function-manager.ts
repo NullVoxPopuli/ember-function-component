@@ -1,18 +1,10 @@
-import { DEBUG } from '@glimmer/env';
 import { getOwner, setOwner } from '@ember/application';
 import { capabilities } from '@ember/component';
-import { assert } from '@ember/debug';
 import { destroy, isDestroying } from '@ember/destroyable';
-import { cancel, later } from '@ember/runloop';
 
-export interface Args {
-  named: Record<string, unknown>;
-  positional: unknown[];
-}
+import { FunctionWrapper } from './function-wrapper';
 
-export type FunctionComponent = (args: Args['named']) => unknown;
-
-class FunctionWrapper {}
+import type { Args, FunctionComponent } from './function-wrapper';
 
 export default class ComponentManager {
   capabilities = capabilities('3.13', {
@@ -28,19 +20,21 @@ export default class ComponentManager {
     return manager;
   }
 
-  createComponent(machine: FunctionComponent, args: Args) {
-    let { named } = args;
+  createComponent(fn: FunctionComponent<unknown>, args: Args) {
+    let wrapper = new FunctionWrapper(fn);
 
-    // setOwner(context, getOwner(this));
+    setOwner(wrapper, getOwner(this));
 
-    return null; /* some function reference / runner */
+    wrapper.update(args);
+
+    return wrapper;
   }
 
-  updateComponent(wrapper: FunctionWrapper, args: Args) {
-    // reinvoke the function
+  updateComponent(wrapper: FunctionWrapper<unknown>, args: Args) {
+    wrapper.update(args);
   }
 
-  destroyComponent(wrapper: FunctionWrapper) {
+  destroyComponent(wrapper: FunctionWrapper<unknown>) {
     if (isDestroying(wrapper)) {
       return;
     }
@@ -48,7 +42,7 @@ export default class ComponentManager {
     destroy(wrapper);
   }
 
-  getContext(wrapper: FunctionWrapper) {
-    return wrapper.lastComputed;
+  getContext(wrapper: FunctionWrapper<unknown>) {
+    return wrapper.lastValue;
   }
 }
