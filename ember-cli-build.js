@@ -22,6 +22,8 @@ module.exports = function (defaults) {
         package: 'dummy',
         components: {
           '{{toggle}}': { safeToIgnore: true },
+          '{{toggler}}': { safeToIgnore: true },
+          '{{foo}}': { safeToIgnore: true },
           '{{toggle-machine}}': { safeToIgnore: true },
           '{{test-machine}}': { safeToIgnore: true },
           '{{report}}': { safeToIgnore: true },

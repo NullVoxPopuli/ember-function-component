@@ -1,4 +1,5 @@
 import '@ember/component';
+
 import type {TemplateFactory} from 'ember-cli-htmlbars';
 
 type TF = TemplateFactory;
@@ -16,3 +17,4 @@ declare module '@ember/component' {
     }
   ): any;
 }
+
