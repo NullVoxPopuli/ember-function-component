@@ -12,7 +12,6 @@ function useToggle() {
 export default setComponentTemplate(
   hbs`
     {{this.value}}
-    {{log 1 this 2 this.value}}
 
     <button type='button' {{on 'click' this.toggle}}>
       Toggle

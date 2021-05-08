@@ -1,5 +1,6 @@
 // import { tracked } from '@glimmer/tracking';
 import { getOwner } from '@ember/application';
+import { assert } from '@ember/debug';
 import { registerDestructor } from '@ember/destroyable';
 
 import { tracked } from 'tracked-built-ins';
@@ -37,6 +38,11 @@ export class FunctionWrapper<Value = unknown> {
     beginFrame(this);
 
     let result = this.fn(args.named, getOwner(this));
+
+    assert(
+      `The return type of your component, ${this.fn.name}, must be an object.`,
+      typeof result === 'object' && !Array.isArray(result)
+    );
 
     Object.assign(this.lastValue, result);
 
