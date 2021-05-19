@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/NullVoxPopuli/ember-function-component/compare/v1.0.0...v1.0.1) (2021-05-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ember-cli-babel to ^7.26.6 ([7ffca9c](https://github.com/NullVoxPopuli/ember-function-component/commit/7ffca9ceb5d3de86201588da50843507510e3e16))
+
 # 1.0.0 (2021-05-08)
 
 
