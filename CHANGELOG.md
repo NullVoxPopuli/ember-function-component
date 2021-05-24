@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/NullVoxPopuli/ember-function-component/compare/v1.0.2...v1.0.3) (2021-05-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ember-cached-decorator-polyfill to ^0.1.3 ([3c386ef](https://github.com/NullVoxPopuli/ember-function-component/commit/3c386ef46ac5e716ef39ddcbcae9397a0bb098a1))
+
 ## [1.0.2](https://github.com/NullVoxPopuli/ember-function-component/compare/v1.0.1...v1.0.2) (2021-05-19)
 
 
