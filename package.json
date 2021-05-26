@@ -1,6 +1,6 @@
 {
   "name": "ember-function-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Function components and hooks for ember, but without the rules of hooks",
   "keywords": [
     "ember-addon"
