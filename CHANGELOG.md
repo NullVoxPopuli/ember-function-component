@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/NullVoxPopuli/ember-function-component/compare/v1.0.4...v1.0.5) (2021-06-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ember-cli-typescript to ^4.2.0 ([7691d62](https://github.com/NullVoxPopuli/ember-function-component/commit/7691d621afa63d9b73adb26c312a75cf125dea80))
+
 ## [1.0.4](https://github.com/NullVoxPopuli/ember-function-component/compare/v1.0.3...v1.0.4) (2021-05-26)
 
 
