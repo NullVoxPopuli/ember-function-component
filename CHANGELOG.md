@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/NullVoxPopuli/ember-function-component/compare/v1.0.8...v1.0.9) (2021-08-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ember-auto-import to ^2.1.0 ([87e4f9f](https://github.com/NullVoxPopuli/ember-function-component/commit/87e4f9fa650b030fa9a5766c8cc3cb41f34ae489))
+
 ## [1.0.8](https://github.com/NullVoxPopuli/ember-function-component/compare/v1.0.7...v1.0.8) (2021-07-28)
 
 
