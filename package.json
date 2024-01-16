@@ -33,7 +33,7 @@
     "ember-cli-babel": "^8.2.0",
     "ember-cli-htmlbars": "^6.3.0",
     "ember-cli-typescript": "^5.2.1",
-    "tracked-built-ins": "^1.1.1"
+    "tracked-built-ins": "^3.3.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
