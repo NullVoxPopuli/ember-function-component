@@ -31,7 +31,7 @@
     "ember-auto-import": "^2.7.2",
     "ember-cached-decorator-polyfill": "^1.0.2",
     "ember-cli-babel": "^8.2.0",
-    "ember-cli-htmlbars": "^5.7.2",
+    "ember-cli-htmlbars": "^6.3.0",
     "ember-cli-typescript": "^4.2.1",
     "tracked-built-ins": "^1.1.1"
   },
