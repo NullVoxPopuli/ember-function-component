@@ -101,7 +101,7 @@
     "qunit-dom": "^1.6.0",
     "semantic-release": "^23.0.2",
     "typescript": "^5.3.3",
-    "webpack": "^5.90.1"
+    "webpack": "^5.90.2"
   },
   "release": {
     "branches": [
