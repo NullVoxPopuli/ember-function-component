@@ -100,7 +100,7 @@
     "qunit-console-grouper": "^0.3.0",
     "qunit-dom": "^1.6.0",
     "semantic-release": "^23.0.8",
-    "typescript": "^5.4.4",
+    "typescript": "^5.4.5",
     "webpack": "^5.91.0"
   },
   "release": {
