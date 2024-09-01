@@ -36,8 +36,8 @@
     "tracked-built-ins": "^3.3.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.4.0",
-    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
     "@ember/optional-features": "^2.1.0",
     "@ember/test-helpers": "^2.9.4",
     "@embroider/test-setup": "^4.0.0",
