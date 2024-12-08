@@ -95,7 +95,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "loader.js": "^4.7.0",
     "npm-run-all2": "^7.0.1",
-    "prettier": "^3.4.1",
+    "prettier": "^3.4.2",
     "qunit": "^2.22.0",
     "qunit-console-grouper": "^0.3.0",
     "qunit-dom": "^1.6.0",
