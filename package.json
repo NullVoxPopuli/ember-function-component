@@ -39,7 +39,7 @@
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
     "@ember/optional-features": "^2.2.0",
-    "@ember/test-helpers": "^2.9.5",
+    "@ember/test-helpers": "^2.9.6",
     "@embroider/test-setup": "^4.0.0",
     "@glimmer/component": "^2.0.0",
     "@glimmer/tracking": "^1.1.2",
