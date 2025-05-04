@@ -92,7 +92,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-ember": "^12.5.0",
     "eslint-plugin-n": "^14.0.0",
-    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-prettier": "^5.3.1",
     "loader.js": "^4.7.0",
     "npm-run-all2": "^8.0.1",
     "prettier": "^3.5.3",
