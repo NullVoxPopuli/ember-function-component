@@ -36,8 +36,8 @@
     "tracked-built-ins": "^4.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.0",
-    "@commitlint/config-conventional": "^19.8.0",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@ember/optional-features": "^2.2.0",
     "@ember/test-helpers": "^2.9.6",
     "@embroider/test-setup": "^4.0.0",
@@ -92,7 +92,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-ember": "^12.5.0",
     "eslint-plugin-n": "^14.0.0",
-    "eslint-plugin-prettier": "^5.3.1",
+    "eslint-plugin-prettier": "^5.4.0",
     "loader.js": "^4.7.0",
     "npm-run-all2": "^8.0.1",
     "prettier": "^3.5.3",
