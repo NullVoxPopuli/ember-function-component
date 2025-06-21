@@ -95,7 +95,7 @@ jobs:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GitHubToken }}
       - uses: actions/setup-node@v4
-      - uses: kellyselden/ember-cli-update-action@v6
+      - uses: kellyselden/ember-cli-update-action@v7
         with:
           autofix_command: npm run lint:fix
           ignore_to: true
