@@ -41,7 +41,7 @@
     "@ember/optional-features": "^3.0.0",
     "@ember/test-helpers": "^2.9.6",
     "@embroider/test-setup": "^4.0.0",
-    "@glimmer/component": "^2.0.0",
+    "@glimmer/component": "^2.1.1",
     "@glimmer/tracking": "^1.1.2",
     "@nullvoxpopuli/eslint-configs": "^4.3.0",
     "@semantic-release/changelog": "^6.0.3",
